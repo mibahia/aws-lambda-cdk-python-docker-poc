@@ -8,7 +8,7 @@ app = cdk.App()
 UploadRawData(
     app,
     "UploadRawData",
-    env=cdk.Environment(account="920120425102", region="eu-west-2"),
+    env=cdk.Environment(account="xxxx", region="eu-west-2"),
 )
 
 app.synth()
